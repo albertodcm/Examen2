@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Nombre del producto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-grid>
+      <ion-row>
+        <p><i>Descripcion</i></p>
+      </ion-row>
+      <ion-row>
+        <p><i>Categoria</i></p>
+      </ion-row>
+      <ion-row>
+        <p><i>Precio $</i></p>
+      </ion-row>
+      <ion-row>
+        <p><i>ID</i></p>
+      </ion-row>
+
+      <ion-row>
+        <p>Disponibilidad:  <!--El codigo de abajo son espacios--> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <ion-toggle checked></ion-toggle>
+        </p>
+      </ion-row>
+      <ion-row>
+        
+
+        <ion-toggle checked item-end></ion-toggle>
+
+
+      </ion-row>
+
+    </ion-grid>
+
+
+  </ion-item>
+
+
+
+<ion-button color="primary" expand="block" fill="solid" (click) = "goEdit()">EDIT</ion-button> 
+<ion-button color="primary" expand="block" fill="solid" >DELETE</ion-button> 
+<ion-button color="primary" expand="block" fill="outline" (click) = "goHome()">EXIT</ion-button> 
+
+
+</ion-content>
